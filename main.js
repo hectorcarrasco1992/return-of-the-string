@@ -36,8 +36,10 @@ return first+'.' + str[space+1] +'.'
 }
 
 function yeller(str) {
-  let yell = capitalize(str)+ '!!!'
-  return yell
+ // let yell = capitalize(str)+ '!!!'//
+ // return yell//
+
+  return exclaim(exclaim(exclaim(capitalize(str))))
 }
 
 
